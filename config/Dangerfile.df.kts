@@ -5,6 +5,7 @@ danger(args) {
     onGitHub {
         messageDiff()
         warnWorkInProgress()
+        message("Good job @${pullRequest.user.login}!")
     }
 }
 
