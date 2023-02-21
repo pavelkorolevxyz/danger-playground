@@ -2,6 +2,7 @@ import systems.danger.kotlin.*
 import systems.danger.kotlin.models.github.*
 
 danger(args) {
+    message("Hello from Danger)
     onGitHub {
         warnWorkInProgress()
     }
