@@ -16,6 +16,6 @@ jobs:
       - name: Danger
         uses: docker://ghcr.io/danger/danger-kotlin:1.2.0
         with:
-          args: --dangerfile Dangerfile.df.kts
+          args: --dangerfile config/Dangerfile.df.kts
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
